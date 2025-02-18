@@ -152,6 +152,10 @@
             </div>
             <div>
                 <h1>Docker Image starten mit dockerfile</h1>
+                <p>0.1 Nginx pullen</p>
+                <p>docker pull nginx</p>
+                <p>0.2 Welche images hat man?</p>
+                <p>docker image ls</p>
                 <p>1. Dockerfile erstellen</p>
                 <p> FROM nginx:latest
                     COPY ./html /usr/share/nginx/html
@@ -218,6 +222,29 @@
                     <li>Blue-Green Deployment: Zwei Umgebungen (alt und neu), Umschalten zwischen ihnen</li>
                     <li>Canary Deployment: Neue Version wird schrittweise an eine kleine Benutzergruppe ausgerollt</li>
                     <li>A/B Testing: Vergleich verschiedener Versionen für unterschiedliche Benutzergruppen</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Weitere Themen</h1>
+                <p><strong>Was ist Redis?</strong></p>
+                <ul>
+                    <li>In-Memory-Datenbank mit hoher Geschwindigkeit</li>
+                    <li>Unterstützt verschiedene Datenstrukturen (Strings, Hashes, Listen, Sets)</li>
+                    <li>Wird für Caching, Sitzungsverwaltung und Echtzeitanalysen genutzt</li>
+                </ul>
+                
+                <p><strong>Welche Ports werden genutzt?</strong></p>
+                <ul>
+                    <li>Standardport für Redis: 6379</li>
+                    <li>Für verschlüsselte Verbindungen: 6380</li>
+                    <li>Andere Ports je nach Konfiguration und Sicherheitsanforderungen</li>
+                </ul>
+                
+                <p><strong>Was ist die Bedeutung von ENV im DOCKERFILE?</strong></p>
+                <ul>
+                    <li>Definiert Umgebungsvariablen für Container</li>
+                    <li>Ermöglicht Konfigurationsanpassungen ohne Änderung des Images</li>
+                    <li>Wird zur Steuerung von Laufzeiteinstellungen genutzt</li>
                 </ul>
             </div>
         </main>
